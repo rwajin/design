@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>    
+    <!-- 초기화 -->
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <!-- 베이스 서식 -->
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <!-- 웹폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- css 서식 -->
+    <link href="./css/pc.css" rel="stylesheet" type="text/css">
+    <!-- 폰트어썸 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- favicon -->
+    <link rel="favicon" href="./script/favicon.ico">
+
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="./script/main.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1>
+                <a href="index.html" title="메인 바로가기">
+                    <img src="./img/logo_sub.png" alt="로고" class="sublogo">
+                    <!-- <img src="./img/logo_main.png" alt="메인로고" class="mainlogo"> -->
+                </a>
+            </h1>
+            <div id="toggle">
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+                <span>&nbsp;</span>
+            </div>
+            <nav class="gnb">
+                <!-- <i class="fas fa-times"></i> -->
+                <ul>
+                    <li><a href="#about" title="About">About</a></li>
+                    <li><a href="#skill" title="skill">skill</a></li>
+                    <li><a href="#protfoilo" title="portfoilo">portfoilo</a></li>
+                    <li><a href="#design" title="design">design</a></li>
+                    <li><a href="#contact" title="Contact">Contact</a></li>
+                </ul>
+                <span>hj1843hj@gmail.com</span>
+            </nav>
+        </header>
+        <main>
+            <!-- 메인 -->
+            <section id="first">
+                <div class="inner">
+                    <h2>welcome to my <span>portfolio</span></h2>
+                    <span>안녕하세요 신입 웹퍼블리셔 <span id="m_name">정화진</span>이라고 합니다.<br>
+                    이 포트폴리오를 통해 웹퍼블리셔가 되기 위해 노력한 저의 작업물을 확인 하실 수 있습니다.</span>
+                </div>
+            </section>
+            
+            <!-- about -->
+            <section id="about">
+                <div id="about_inner">
+                    <h2>about me</h2>
+                    <ul class="profile">
+                        <li>
+                            <img src="./img/about_img2.png" alt="profile img">
+                        </li>
+                        <li>
+                            <p>
+                                <span>
+                                안녕하세요 :)<br>신입 웹퍼블리셔<br>정화진입니다.
+                                </span><br><br>
+                                저는 무언가 만들어가는 것을 좋아합니다:)<br> 퍼블리싱을 배우며 알게 된 기술과 지식을 활용하여<br> 멋진 페이지를 구현하겠습니다.<br> 부족한 부분을 계속 채워 나가는 퍼블리셔가 되겠습니다 :)                           
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="my_pr">
+                        <li>
+                            <p>
+                                <span>EDUCATION</span><br>
+                                2020 순천향대학교 사회체육학과 졸업<br>
+                                2022 종로 그린컴퓨터아카데미<br>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <span>CERTIFICATION</span><br>
+                                웹디자인기능사<br>
+                                GTQ 포토샵 1급<br>
+                                GTQ 일러스트레이터 (예정)<br>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                                
+            </section>
+
+            <!-- skill -->
+            <section id="skill">
+                <span class="status"></span>
+                <div class="title_s">
+                    <h3>skill</h3>
+                    <span>저는 이런것들을 할 수 있습니다 :)</span>
+                </div>
+                <div class="inner_skill">
+                    <ul>
+                        <li>
+                            <div class="minibox01">
+                                <img src="./img/HTML5_logo.png"alt="html">
+                                <span class="pull01">
+                                    <p>
+                                        <br>
+                                        웹 표준과 웹 접근성을 준수하여<br>
+                                        바른 코드를 이용한 HTML 구조를 설계<br>
+                                        시멘틱 태그 사용한 마크업을 작성
+                                    </p>
+                                </span>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="minibox01">
+                                <img src="./img/css3_logo.png" alt="css">
+                                <span class="pull01">
+                                    <p>
+                                        <br>
+                                        브라우저의 호환성을 고려하여<br>
+                                        css의 구조와 속성을 이해<br>
+                                        다양한 스타일과 애니메이션 효과로 구현<br>
+                                    </p>
+                                </span>
+                                
+                            </div>
+                            
+                        </li>
+                        <li>
+                            <div class="minibox01">
+                                <img src="./img/js_logo.png" alt="js">
+                                <span class="pull01">
+                                    <p>
+                                        <br>
+                                        페이지를 구현에 필요한 스크립트 언어<br> 
+                                        사용 및 활용 가능
+                                    </p>
+                                </span>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="minibox01">
+                                <img src="./img/jQuery_logo.png"alt="jquery">
+                                <span class="pull01">
+                                    <p>
+                                        <br>
+                                        jQuery를 사용한 다양한 애니메이션<br> 
+                                        효과 및 이벤트, 모달창 등 구현<br>
+                                    </p>
+                                </span>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="minibox02">
+                                <img src="./img/illustrator_logo.png" alt="ai">
+                                <span class="pull01">
+                                    <p>
+                                        <br>
+                                        일러스트를 활용하여 다양한 로고와<br>
+                                        디자인 작업이 가능<br>
+                                    </p>
+                                </span>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="minibox02">
+                                <img src="./img/photoshop_logo.png" alt="ps">
+                                <span class="pull01">
+                                    <p>
+                                        <br>
+                                        포토샵을 사용하여 이미지 편집<br>
+                                        이미지디자인 및 배너디자인 등 가능 
+                                    </p>
+                                </span>
+                                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="minibox02">
+                                <img src="./img/adobe_xd.png" alt="xd">
+                                <span class="pull01">
+                                    <p>
+                                        <br>
+                                        xd를 사용하여 사이트 제작에 필요한<br>
+                                        도안 제작, 프로토타입 제작 가능
+                                    </p>
+                                </span>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- portfolio -->
+            <section id="portfolio">
+                <h2>portfolio</h2>
+                <div class="box01">
+                    <article>
+                        <h5>이미지</h5>
+                        <a href="#">
+                            <img src="./img/novella.jpg" alt="novella펜션">
+                            <div class="explanation">
+                                <h3>novella 펜션</h3>
+                                <ul class="hashtag">
+                                    <li>&#35; 퍼블리싱</li>
+                                    <li>&#35; 기획</li>
+                                    <li>&#35; 디자인</li>
+                                    <li>&#35; 반응형</li>
+                                    <li>&#35; PS</li>
+                                    <li>&#35; AI</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <h5>이미지</h5>
+                        <a href="https://github.com/rwajin/hollys.git" title="hollys">
+                            <img src="./img/hollys.jpg" alt="hollyscoffee">
+                            <div class="explanation">
+                                <h3>hollys coffee</h3>
+                                <ul class="hashtag">
+                                    <li>&#35; 퍼블리싱</li>
+                                    <li>&#35; 기획</li>
+                                    <li>&#35; 디자인</li>
+                                    <li>&#35; 반응형</li>
+                                    <li>&#35; PS</li>
+                                    <li>&#35; AI</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <h5>이미지</h5>
+                        <a href="#">
+                            <img src="./img/doctor.jpg" alt="드라마소개페이지">
+                            <div class="explanation">
+                                <h3>슬기로운 의사생활</h3>
+                                <ul class="hashtag">
+                                    <li>&#35; 원페이지 스크롤</li>
+                                    <li>&#35; 기획</li>
+                                    <li>&#35; 디자인</li>
+                                    <li>&#35; PS</li>
+                                    <li>&#35; AI</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <h5>이미지</h5>
+                        <a href="#">
+                            <img src="./img/trip.jpg" alt="여행UI/UX디자인">
+                            <div class="explanation">
+                                <h3>울릉도 모바일 UI&#183;UX디자인</h3>
+                                <ul class="hashtag">
+                                    <li>&#35; UI&#183;UX디자인</li>
+                                    <li>&#35; 기획</li>
+                                    <li>&#35; 모바일</li>
+                                    <li>&#35; PS</li>
+                                    <li>&#35; AI</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                
+            </section>
+
+            <!-- ai,ps -->
+            <section id="design">
+                <div class="inner_d">
+                    <div class="d-intro">
+                        <h2>design</h2>
+                        <span>AI &#183; PS를 사용하였습니다 :)</span>
+                    </div>
+                    <div class="gallery">
+                        <ul>
+                            <li>
+                                <a href="#" title="AI">
+                                    <div>
+                                        <img src="./img/img01.png" alt="AI">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="AI">
+                                    <div>
+                                        <img src="img/img02.png" alt="AI">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="AI">
+                                    <div>
+                                        <img src="img/img03.png" alt="AI">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="AI">
+                                    <div>
+                                        <img src="img/img04.png" alt="AI">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="AI">
+                                    <div>
+                                        <img src="img/img05.png" alt="AI">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="PS">
+                                    <div>
+                                        <img src="img/img06.png" alt="PS">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="PS">
+                                    <div>
+                                        <img src="img/img07.png" alt="PS">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="AI">
+                                    <div>
+                                        <img src="img/img08.png" alt="AI">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- <button type="button" class="btn_image">
+                            <img src="./img/close.png">
+                        </button> -->
+                    </div>
+                    
+                </div>
+
+            </section>
+
+            <!-- contact -->
+            <section id="contact">
+                <h3>contact</h3>
+                <article class="last_con">
+                    <img src="./img/f_img.JPG" alt="footer-img" class="profile02">
+                    <div class="text_box" data-trigger>
+                        <span class="text"></span>
+                    </div>
+                    <div class="email_con">
+                        <span class="p01">메일주시면 확인 후 빠르게 답 드리겠습니다 :)</span>
+                        <fieldset>
+                            <legend>e-mail</legend>
+                            <p>
+                                <label for="txt01">*제목 : </label>
+                                <input type="text" name="subject" id="subject"
+                                placeholder="제목" required>
+                            </p>
+            
+                            <p><label for="txt02">*이름 : </label>
+                                <input type="text" name="name" id="name"
+                                placeholder="이름" required>
+                            </p>
+            
+                            <p>
+                                <label for="txt03">*이메일 주소 : </label>
+                                <input type="text" name="email" id="email"
+                                placeholder="이메일" required>
+                            </p>
+            
+                            <p>
+                                <label for="txt04">*내용 : </label>
+                                <textarea name="message" id="message" rows="10"></textarea>
+                            </p>
+            
+                            <p>
+                                <input type="submit" value="send Message" id="send">
+                            </p>
+            
+                        </fieldset>
+                    </div>
+                </article>
+            </section>
+
+        </main>
+
+        <footer>
+            <address>
+                본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.<br>
+                Copyrightⓒ2022hwajinAll rights reserved.
+            </address>
+        </footer>
+    </div>
+</body>
+</html>
